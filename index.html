@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZAIK Labs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <h1 class="hero-title">Z<span class="green-letter">A</span><span class="green-letter">I</span>K Labs</h1>
+            <p class="hero-subtitle">Building Trustless and Verifiable Agentic Workflows</p>
+            <button id="waitlist-btn" class="cta-button">Signup for waitlist</button>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="zaik-mcp">
+            <div class="container">
+                <h2>Coming Soon: ZAIK MCP</h2>
+                <p class="mcp-description">
+                    Our remote Model Context Protocol server enables AI agents to generate and verify zero-knowledge proofs 
+                    of computations with each other including linear regression, logistic regression, and neural networks. Keep your algorithm 
+                    configurations and inputs completely private to untrusted agents while proving computational integrity.
+                </p>
+                <div class="mcp-features">
+                    <div class="feature">
+                        <h4>Private Computing</h4>
+                        <p>Algorithm configs and inputs remain completely confidential</p>
+                    </div>
+                    <div class="feature">
+                        <h4>Verifiable Results</h4>
+                        <p>Generate cryptographic proofs of computation correctness</p>
+                    </div>
+                    <div class="feature">
+                        <h4>AI Agent Ready</h4>
+                        <p>Seamlessly integrate with existing AI workflows</p>
+                    </div>
+                </div>
+                
+                <div class="video-container">
+                    <iframe 
+                        width="800" 
+                        height="450" 
+                        src="https://www.youtube.com/embed/2A-jplQ8czs" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="team">
+            <div class="container">
+                <h2>Meet the Team</h2>
+                <div class="team-member">
+                    <img src="profile.jpg" alt="Ronan Takizawa" class="profile-image">
+                    <div class="member-info">
+                        <h3>Ronan Takizawa</h3>
+                        <p>
+                            1x acquired founder who previously worked as a research assistant at NYU's Secure Systems Lab. 
+                            He has contributed to open-source projects from ZKSecurity and MentraOS, and has gained 100k+ 
+                            followers online through his experience in software development and cybersecurity.
+                        </p>
+                        <a href="http://linkedin.com/in/ronantakizawa" target="_blank" class="linkedin-link">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Email Signup Modal -->
+    <div id="email-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Join the Waitlist</h3>
+            <form id="email-form">
+                <input type="email" id="email-input" placeholder="Enter your email" required>
+                <button type="submit" class="submit-btn">Join Waitlist</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
